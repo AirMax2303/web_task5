@@ -1,0 +1,13 @@
+.wrap {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+.calculator {
+    display: inline-block;
+    margin: 20px auto 0 auto;
+    padding: 0 20px 20px 20px;
+    background-color: #789cff;
+    border-radius: 8px;
+}
