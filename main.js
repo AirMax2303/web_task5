@@ -18,7 +18,7 @@ function calculate() {
     } else if (firstLot == "") {
         alert("Enter the quantity of the first product");
     } else {
-        const cost = firstProduct * firstLot + secondProduct * secondLot;
+        const cost = firstProduct * firstLot;
         document.getElementById("cost").innerHTML =
             "Total cost: " + cost + " rub";
     }
